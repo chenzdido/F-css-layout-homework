@@ -23,8 +23,53 @@ ul {
   align-items: center;
   color:white;
 }
+
 header{
   height:80px;
   background-color:black;
 }
 
+.archives{
+  display: flex;
+  flex-direction: column;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top:50%;
+  right:5%;
+  
+}
+
+.left-part{
+  width:100px
+}
+.right-part{
+  width:150px;
+ 
+
+}
+.middle-part{
+  width:800px;
+  display:flex;
+  flex-direction: column;
+  justify-items: stretch;
+  flex-wrap: wrap;
+}
+main{
+  display: flex;
+  justify-content: space-evenly;
+  height: 1000px;
+}
+.aiticle{
+  margin-top:20px;
+  width:380px;
+  border:2px solid black;
+}
+.article-img{
+  width:370px;
+  height:100px;
+  background-color: blueviolet;
+}
