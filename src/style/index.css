@@ -37,12 +37,19 @@ header{
 .login{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   position: fixed;
   top:50%;
   right:5%;
-  
+  width:150px;
+  height:100px;
+  background-color:#DDDDDD;
 }
 
+.text{
+  width:125px;
+}
 .left-part{
   width:100px
 }
@@ -66,10 +73,18 @@ main{
 .aiticle{
   margin-top:20px;
   width:380px;
-  border:2px solid black;
+  border:1px solid grey;
 }
 .article-img{
   width:370px;
   height:100px;
   background-color: blueviolet;
+}
+.view{
+  color:blue;
+  margin:5px 5px;
+}
+
+.title,.contents{
+  margin: 10px;
 }
